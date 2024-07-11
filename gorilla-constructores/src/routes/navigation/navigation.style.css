@@ -1,0 +1,14 @@
+.container {
+    display: flex;
+    flex-wrap: inherit;
+    align-items: center;
+    justify-content: space-between;
+    float: right !important;
+}
+
+.button-nav-link-container {
+    font-weight: bold;
+    color: black;
+    text-decoration: none;
+    padding: 10px;
+}

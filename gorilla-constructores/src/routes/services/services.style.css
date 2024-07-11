@@ -1,0 +1,15 @@
+.h2-services {
+    text-align: center;
+    font-size: 40px;
+    position: relative;
+    padding-bottom: 5%;
+}
+
+.services-container {
+    min-height: 400px;
+    text-align: center;
+    padding-top: 45px;
+    justify-content: center;
+    padding-left: 50px;
+    padding-right: 50px;
+}
