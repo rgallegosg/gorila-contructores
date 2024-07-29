@@ -1,6 +1,7 @@
 .app-container {
   padding-left: 2%;
   padding-right: 2%;
+  width: 100%;
   height: auto;
   align-content: center;
 }
