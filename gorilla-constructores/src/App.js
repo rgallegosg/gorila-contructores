@@ -5,20 +5,20 @@ import ServicesPage from './routes/services/services.component';
 import GalleryPage from './routes/gallery/gallery.component';
 import Navigation from './routes/navigation/navigation.component';
 import HomePage from './routes/home/home.component';
+import Footer from './components/footer/footer.component';
 
 const App = () => {
   return (
     <div className='app-container'>
+      <Navigation></Navigation>
       <Routes>
-        <Route path='/' exact element={<Navigation />}>
-          <Route index element={<HomePage />} />
-          <Route path='contacto' element={<ContactPage />} />
-          <Route path='servicios' element={<ServicesPage />} />
-          <Route path='galeria' element={<GalleryPage />} />
-        </Route>
+        <Route index element={<HomePage />} />
+        <Route path='contacto' element={<ContactPage />} />
+        <Route path='servicios' element={<ServicesPage />} />
+        <Route path='galeria' element={<GalleryPage />} />
       </Routes>
       <div>
-        HERE GOES THE FOOTER
+        <Footer></Footer>
       </div>
     </div>
   );

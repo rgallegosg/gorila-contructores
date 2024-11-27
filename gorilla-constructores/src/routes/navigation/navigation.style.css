@@ -1,27 +1,46 @@
 /*Adding Russo One font for nav links*/
 @import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
 
-.navbar-container {
-    width: 95%;
+.nav {
+    z-index: 10001;
+}
+
+.navbar {
+    width: 100%;
     height: 77px;
     padding: 14px 16px;
+    display: flex;
+    justify-content: space-between;
     -webkit-box-shadow: 0 4px 6px -6px #222;
     -moz-box-shadow: 0 4px 6px -6px #222;
-    box-shadow: 0 4px 6px -6px #222;;
+    box-shadow: 0 4px 6px -6px #222;
+    top: 0;
+    position: sticky;
+    background-color: white;
+    z-index: 1;
 }
 
-.container-fluid {
+nav ul li {
+    display: inline;
+    padding: 1em;
+}
+
+.nav-links {
+    list-style: none;
     display: flex;
-    flex-wrap: inherit;
     align-items: center;
-    justify-content: space-between;
 }
 
-.nav-links-container {
-    display: flex !important;
-    flex-basis: auto;
-    width: auto;
+.nav-links.visible {
+    flex-direction: column;
+    position: absolute;
+    width: 50%;
+    right: -62px;
+    height: 100%;
+    top: 17.2%;
+    align-items: center;
     float: right !important;
+    transition: all 0.3s ease-in-out;
 }
 
 .button-nav-link-container {
@@ -34,6 +53,19 @@
     font-weight: 400;
     font-style: normal;
     padding-right: 30px;
+}
+
+.burger-menu-icon {
+    display: none;
+    cursor: pointer;
+}
+
+.burger-bar {
+    width: 25px;
+    height: 3px;
+    background-color: black;
+    margin: 5px 0;
+    border-radius: 2px;
 }
 
 a.active {
@@ -49,4 +81,78 @@ a.active {
 .logo-container {
     width: 146.67px;
     height: 50px;
+}
+
+
+
+
+
+/* Media query for tablet version  */
+@media screen and (max-width : 786px) {
+    .burger-menu-icon {
+        display: block;
+    }
+
+    .nav-links {
+        display: none;
+    }
+
+    .nav-links.visible {
+        display: flex;
+        background: white;
+        z-index: 1000;
+        padding: 20px 0;
+        -webkit-box-shadow: 0 4px 6px -6px #222, 0 4px 6px -6px #222;
+        -moz-box-shadow: 0 4px 6px -6px #222, 0 4px 6px -6px #222;
+        box-shadow: 0 4px 6px -6px #222, 0 4px 6px -6px #222;
+        ;
+    }
+
+    .navbar {
+        background: #fff;
+        padding: 10px 8%;
+    }
+
+    nav ul li {
+        display: inline;
+        padding: 1em;
+        padding-right: 35%;
+    }
+
+}
+
+/* Media query for mobile version  */
+@media screen and (max-width : 600px) {
+    .burger-menu-icon {
+        display: block;
+    }
+
+    .nav-links {
+        display: none;
+    }
+
+    .nav-links.visible {
+        display: flex;
+        background: white;
+        z-index: 1000;
+        padding: 20px 0;
+        top: 85%;
+        height: 900px;
+        -webkit-box-shadow: 0 4px 6px -6px #222, 0 4px 6px -6px #222;
+        -moz-box-shadow: 0 4px 6px -6px #222, 0 4px 6px -6px #222;
+        box-shadow: 0 4px 6px -6px #222, 0 4px 6px -6px #222;
+        ;
+    }
+
+    .navbar {
+        background: #fff;
+        padding: 10px 8%;
+    }
+
+    nav ul li {
+        display: inline;
+        padding: 1em;
+        padding-right: 35%;
+    }
+
 }
