@@ -10,9 +10,22 @@
     color: black;
 }
 
+.carousel-container {
+    width: 100%;
+    height: auto;
+    padding-left: 2%;
+}
+
 .services-container {
     width: 93%;
     height: 100px;
-    padding: 2% 2% 4%;
-    border: 3px solid black;
+    padding: 2% 2% 2%;
+}
+
+.gallery-container {
+    background-color: #E1E1E1;
+    width: 100%;
+    height: auto;
+    padding-left: 2%;
+    padding-bottom: 40px;
 }

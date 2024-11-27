@@ -1,0 +1,13 @@
+.list-container {
+    width: 100%;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.row {
+    width: 100%;
+}

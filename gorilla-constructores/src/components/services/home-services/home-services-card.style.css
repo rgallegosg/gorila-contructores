@@ -1,0 +1,37 @@
+/*Adding Russo One font for title*/
+@import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
+@import url('https://fonts.cdnfonts.com/css/sansation');
+
+.image-container {
+    float: left;
+    width: 25%;
+    position: relative;
+    height: 280px;
+}
+
+.image-title {
+    font-family: "Sansation", sans-serif;
+    font-size: 30px;
+    font-style: normal;
+    color: white;
+    background-color: rgba(0,0,0,0.55);
+    position: relative;
+    top: -253px;
+    width: 80%;
+    height: 80px;
+    opacity: 0;
+    text-align: center;
+    display: inline flow-root;
+    text-align: center;
+    padding: 85px 0;
+}
+
+.service-img {
+    width: 80%;
+    height: 250px;
+    padding-top: 40px;
+}
+
+.image-container:hover .image-title:hover {
+    opacity: 1;
+}
