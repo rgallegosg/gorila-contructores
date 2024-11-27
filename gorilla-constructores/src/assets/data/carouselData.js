@@ -3,24 +3,36 @@ export const CarouselData = [
         id: 0,
         caption: 'Persianas',
         title: 'Persianas',
-        img: 'https://persianasyarax.com/wp-content/uploads/2020/03/persianas-sheer-elegance-estancia.jpg'
+        img: '../images/carrusel/arquitectura-Gorila.png'
     },
     {
         id: 1,
-        caption: 'Cocinas',
-        title: 'Cocinas',
-        img: 'https://cocinasfinezza.com/wp-content/uploads/cocinas-grandes-galeria-4-1024x683.jpg'
+        caption: 'Follaje Artificial',
+        title: 'Follaje Artificial',
+        img: '../images/carrusel/closets-Gorila.png'
     },
     {
         id: 2,
-        caption: 'Closets',
-        title: 'Closets',
-        img: 'https://www.dimacomag.com/assets/images/25-1663x935.webp'
+        caption: 'Pisos Laminados',
+        title: 'Pisos Laminados',
+        img: '../images/carrusel/cocinas-Gorila.png'
     },
     {
         id: 3,
-        caption: 'Supervision',
-        title: 'Supervision',
-        img: 'https://i0.wp.com/arquitectojota.com/wp-content/uploads/2023/03/supervision-obra-arquitecto-jota-8482551.jpg?resize=1024%2C683&ssl=1'
+        caption: 'Pisos Laminados',
+        title: 'Pisos Laminados',
+        img: '../images/carrusel/persianas-Gorila.png'
+    },
+    {
+        id: 4,
+        caption: 'Pisos Laminados',
+        title: 'Pisos Laminados',
+        img: '../images/carrusel/piso-Laminado-Gorila.png'
+    },
+    {
+        id: 5,
+        caption: 'Pisos Laminados',
+        title: 'Pisos Laminados',
+        img: '../images/carrusel/follaje-Artificial-Gorila.png'
     }
 ]

@@ -7,6 +7,17 @@ import './footer.style.css';
 const Footer = () => {
     return (
         <>
+            <div className='wrapper'>
+                <div className="column1">
+                    <p>Contactanos</p>
+                </div>
+                <div className="column2">
+                    <p>Desarrollado por ...</p>
+                </div>
+                <div className="column3">
+                    <p>Social Media</p>
+                </div>
+            </div>
             <div className="footer-container">
                 <div className="footer-logo-container">
                 <img src={GorilaLogo} className="footer-logo" alt="Gorila Constructores" />
