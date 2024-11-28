@@ -11,9 +11,7 @@ const HomePage = () => {
     return (
         <Fragment>
             <Carousel carouselImg={carouselImg}></Carousel>
-            <div className="services-container">
-                <h1 className="home-page-title">Nuestros Servicios</h1>
-            </div>
+            <h1 className="home-page-title">Nuestros Servicios</h1>
             <div className="gallery-container">
                 <HomeServicesList></HomeServicesList>
             </div>
