@@ -4,9 +4,7 @@ const CarouselImg = ({ img }) => {
     return (
         <div className='carousel-image-container'>
             <img className='carousel-img' src={img.img} alt={img.caption}></img>
-            <div className="image-title">
-                <p>{img.caption}</p>
-            </div>
+            <div className="carousel-title">{img.caption}</div>
         </div>
     );
 }
