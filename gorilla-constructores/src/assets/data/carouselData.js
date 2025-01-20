@@ -14,8 +14,8 @@ export const CarouselData = [
     },
     {
         id: 1,
-        caption: 'Closets',
-        title: 'Closets',
+        caption: 'Clósets',
+        title: 'Clósets',
         img: imgClosets
     },
     {
