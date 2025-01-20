@@ -7,7 +7,6 @@ const ContactPage = () => {
         <Fragment>
             <h2 style={{ fontSize : 40, position: 'relative' }}>Contacto</h2>
             <ContactForm></ContactForm>
-            <MapComponent></MapComponent>
         </Fragment>
     );
 };
