@@ -1,0 +1,88 @@
+@import url('https://fonts.cdnfonts.com/css/sansation');
+@import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
+
+
+.column-img {
+    float: left;
+    width: 50%;
+}
+
+.column-form {
+    float: right;
+    width: 50%;
+    background-color: #D9D9D9;
+    height: 528px;
+}
+
+.contact-us-img {
+    width: 100%;
+    height: auto;
+}
+
+.row::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.contact-label {
+    font-family: "Sansation", sans-serif;
+    font-size: 15px;
+    font-style: normal;
+    color: black;
+    padding-left: 40px;
+}
+
+.contact-input {
+    border-radius: 9px;
+    border-color: black;
+    width: 80%;
+    height: 40px;
+    margin-left: 40px;
+    margin-bottom: 15px;
+}
+
+.contact-select {
+    width: 80%;
+}
+
+.contact-select select {
+    appearance: none;
+    border-radius: 9px;
+    margin-left: 40px;
+    height: 40px;
+    width: 101%;
+    font-size: 1.15rem;
+    background-color: white;
+    border-color: black;
+    cursor: pointer;
+}
+
+.map-container {
+    margin-top: 20px;
+    font-family: "Sansation", sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    color: black;
+    margin-bottom: 60px;
+    margin-left: 25%;
+}
+
+.button-container {
+    margin-top: 20px;
+}
+
+@media screen and (max-width: 600px) {
+    .column-img,
+    .column-form {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .column-img,
+    .column-form {
+        float: none;
+        width: auto;
+    }
+}

@@ -35,3 +35,68 @@
 .image-container:hover .image-title:hover {
     opacity: 1;
 }
+
+/* Media query for tablet version  */
+@media screen and (max-width : 790px) {
+    .image-container {
+        float: left;
+        width: 50%;
+        position: relative;
+        height: 280px;
+    }
+
+    .image-title {
+        font-family: "Sansation", sans-serif;
+        font-size: 30px;
+        font-style: normal;
+        color: white;
+        background-color: rgba(0,0,0,0.55);
+        position: relative;
+        top: -253px;
+        width: 80%;
+        height: 80px;
+        opacity: 1;
+        text-align: center;
+        display: inline flow-root;
+        text-align: center;
+        padding: 85px 0;
+    }
+
+    .image-container:hover .image-title:hover {
+        opacity: 1;
+    }
+}
+
+/* Media query for tablet version  */
+@media screen and (max-width : 600px) {
+    .image-container {
+        float: left;
+        width: 100%;
+        position: relative;
+        height: 180px;
+        margin-left: 20%;
+    }
+
+    .service-img {
+        width: 60%;
+        height: 200px;
+        padding-top: 40px;
+    }
+
+    .image-title {
+        font-family: "Sansation", sans-serif;
+        font-size: 15px;
+        font-style: normal;
+        color: white;
+        background-color: rgba(0,0,0,0.55);
+        position: relative;
+        top: -204px;
+        width: 60%;
+        height: 30px;
+        opacity: 1;
+        text-align: center;
+        display: inline flow-root;
+        text-align: center;
+        padding: 85px 0;
+    }
+}

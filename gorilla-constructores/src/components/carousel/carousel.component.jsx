@@ -5,7 +5,7 @@ import CarouselImg from './carousel-img.component';
 const Carousel = ({ carouselImg }) => {
     const [currentImg, setCurrentImg] = useState(0);
     const length = carouselImg.length;
-    const delay = 18000;
+    const delay = 180000;
 
     useEffect(() => {
         setTimeout(() => setCurrentImg((currentImg) =>
