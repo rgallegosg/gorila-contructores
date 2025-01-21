@@ -24,3 +24,29 @@
     padding-left: 2%;
     padding-bottom: 40px;
 }
+
+/* Media query for tablet version  */
+@media screen and (max-width : 790px) {
+    .home-page-title {
+        font-size: 25px;
+        margin-top: 180px;
+    }
+
+    .gallery-container {
+        height: auto;
+        background-color: #E1E1E1;
+    }
+}
+
+/* Media query for tablet version  */
+@media screen and (max-width : 600px) {
+    .gallery-container {
+        height: auto;
+        background-color: #E1E1E1;
+    }
+
+    .home-page-title {
+        font-size: 20px;
+        margin-top: 20px;
+    }
+}

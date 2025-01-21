@@ -13,24 +13,21 @@ import { Fragment } from 'react';
 const App = () => {
   return (
     <Fragment>
-      <div className='app-container'>
-        <Navigation></Navigation>
-        <Routes>
-          <Route index element={<HomePage />} />
-          <Route path='contacto' element={<ContactPage />} />
-          <Route path='servicios' element={<ServicesPage />} />
-          <Route path='galeria' element={<GalleryPage />} />
-          <Route path='upload' element={<UploadPage />} />
-        </Routes>
-        <a className='whatsapp-icon' href='https://wa.me/442XXXXXXX' target='_blank'>
-          <img src={whatsappLogo} width='60' alt='WhatsApp'></img>
-        </a>
-        <div>
-          <Footer></Footer>
-        </div>
+      <Navigation />
+      <Routes>
+        <Route index element={<HomePage />} />
+        <Route path='contacto' element={<ContactPage />} />
+        <Route path='servicios' element={<ServicesPage />} />
+        <Route path='galeria' element={<GalleryPage />} />
+        <Route path='upload' element={<UploadPage />} />
+      </Routes>
+      <a className='whatsapp-icon' href='https://wa.me/442XXXXXXX' target='_blank'>
+        <img className='wa-img' src={whatsappLogo} width='60' alt='WhatsApp'></img>
+      </a>
+      <div>
+        <Footer />
       </div>
     </Fragment>
-
   );
 };
 

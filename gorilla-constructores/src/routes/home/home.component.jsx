@@ -16,7 +16,6 @@ const HomePage = () => {
                 <HomeServicesList></HomeServicesList>
             </div>
         </Fragment>
-
     );
 };
 

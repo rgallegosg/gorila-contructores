@@ -11,3 +11,25 @@
 .row {
     width: 100%;
 }
+
+/* Media query for tablet version  */
+@media screen and (max-width : 790px) {
+    .row {
+        height: fit-content;
+    }
+
+    .list-container {
+        height: fit-content;
+    }
+}
+
+/* Media query for tablet version  */
+@media screen and (max-width : 600px) {
+    .row {
+        height: fit-content;
+    }
+
+    .list-container {
+        height: 1500px;
+    }
+}
