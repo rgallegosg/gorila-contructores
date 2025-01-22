@@ -1,0 +1,19 @@
+.container-sections{
+    height: auto;
+    margin: 0px 30px;
+}
+.section-service-card{
+    background: #D9D9D9;
+    padding: 15px;
+    border-radius: 5px;
+    
+}
+.section-service-img img{
+    width: 100%;
+}
+.grid-gallery{
+    display: grid;
+    gap: 1rem;
+    grid-auto-rows: 22rem;
+    grid-template-columns: repeat(auto-fill, minmax(min(100%, 25rem), 1fr));
+}
