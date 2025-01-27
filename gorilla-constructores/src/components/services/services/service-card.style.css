@@ -17,3 +17,12 @@
     grid-auto-rows: 22rem;
     grid-template-columns: repeat(auto-fill, minmax(min(100%, 25rem), 1fr));
 }
+
+.h2-services{
+    font-size: 40px;
+}
+@media screen and (max-width : 790px) {
+    .h2-services {
+        font-size: 20px;
+    }
+}
